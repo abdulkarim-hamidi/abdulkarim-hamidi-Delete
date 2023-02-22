@@ -14,7 +14,8 @@ import java.sql.Statement;
  * The syntax for deleting records from a table is as follows:
  * DELETE FROM table_name WHERE condition;
  *
- * NOTE: Whenever you execute a DELETE statement, have a WHERE condition that identifies exactly what records you would
+ * NOTE: Whenever you execute a DELETE statement, have a WHERE condition that
+ *  identifies exactly what records you would
  * like to delete. Leaving this out will remove ALL records from the table.
  *
  * Additional resource: https://www.w3schools.com/sql/sql_delete.asp
@@ -22,7 +23,8 @@ import java.sql.Statement;
 public class DeleteRecords {
 
     /**
-     * Assignment: In the problem1.sql, write the SQL command to delete 'Steve' from the site_user table, assuming
+     * Assignment: In the problem1.sql, write the SQL command to delete 
+     * 'Steve' from the site_user table, assuming
      * that the table and 'Steve' records already exist.
      *
      *        site_user table:
